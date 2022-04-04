@@ -1,0 +1,6 @@
+[packages]
+jupyterlab = "*"
+jupyter-repo2docker = "*"
+
+[requires]
+python_version = "3"
