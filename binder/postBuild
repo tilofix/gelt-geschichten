@@ -11,6 +11,6 @@ set -ex
 export CARGO_INSTALL_ROOT="$HOME/.local/"
 echo "Cargo installs in root: $CARGO_INSTALL_ROOT"
 cargo install evcxr_jupyter --version "0.12.0" --no-default-features
-export JUPYTER_PATH=$JUPYTER_DATA_DIR
+export JUPYTER_PATH=$KERNEL_PYTHON_PREFIX/share/jupyter
 echo "Jupyter kernels install in data dir: $JUPYTER_PATH"
 evcxr_jupyter --install
